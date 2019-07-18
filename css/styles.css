@@ -26,3 +26,19 @@
   margin-top: 10%;
   padding-bottom: 30px; 
 }
+.about{
+  text-align: center;
+}
+#about{
+  margin-top: 20px;
+}
+.services{
+  text-align: center;
+  background-image: url("../images/backgrounds/s_image.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
