@@ -28,9 +28,8 @@
 }
 .about{
   text-align: center;
-}
-#about{
-  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top:40px;
 }
 .services{
   text-align: center;
@@ -41,4 +40,35 @@
   background-repeat: no-repeat;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+.what-we-do{
+  text-align: center;
+  padding-top: 40px;
+}
+.what-we-do h2{
+  padding-bottom: 38px;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:16%;
+  margin-right: 16%; 
+}
+.col-md-3 img{
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+}
+.contact{
+  background-image: url('../images/backgrounds/c_image.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
 }
