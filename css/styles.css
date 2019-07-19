@@ -70,5 +70,35 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  /* text-align: center; */
+}
+.contact h2{
   text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+  input[type=text], input[type=email]{
+  background: transparent;
+  color: white;
+ 
+}
+#name{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+#email{
+  width: 30%;
+}
+#comment{
+  background: transparent;
+  margin-left: 20%;
+  width: 60%;
+}
+footer{
+  text-align: center;
+  padding-top: 30px;
+}
+footer p{
+  margin-top: 10px;
 }
