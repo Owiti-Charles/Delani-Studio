@@ -80,10 +80,10 @@ input[type=text],input[type=email]{
   background: transparent;
   /* color: white; */
 }
-input::placeholder{
-  color: white;
+
+.form-control::-webkit-input-placeholder { 
+  color: white; 
 }
-.form-control::-webkit-input-placeholder { color: white; }
 #name{
   width: 30%;
   margin-left: 18%;
@@ -108,4 +108,7 @@ footer{
 }
 footer p{
   margin-top: 10px;
+}
+#product, #development, #design{
+  display: none;
 }
