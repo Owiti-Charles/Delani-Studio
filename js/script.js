@@ -1,8 +1,6 @@
 $(document).ready(function(){
   $("#development-image").click(function(){
     $("#development-image").hide();
-    +
-     c
     $("#development").show();
   });
 });
@@ -10,5 +8,17 @@ $(document).ready(function(){
   $("#development").click(function(){
     $("#development").hide();
     $("#development-image").show();
+  });
+});
+$(document).ready(function(){
+  $("#design-image").click(function(){
+    $("#design-image").hide();
+    $("#design").show();
+  });
+});
+$(document).ready(function(){
+  $("#design").click(function(){
+    $("#design").hide();
+    $("#design-image").show();
   });
 });
