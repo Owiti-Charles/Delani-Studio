@@ -22,3 +22,15 @@ $(document).ready(function(){
     $("#design-image").show();
   });
 });
+$(document).ready(function(){
+  $("#product-image").click(function(){
+    $("#product-image").hide();
+    $("#product").show();
+  });
+});
+$(document).ready(function(){
+  $("#product").click(function(){
+    $("#product").hide();
+    $("#product-image").show();
+  });
+});
