@@ -31,6 +31,7 @@ html{
   margin-top: 10%;
   padding-bottom: 30px; 
 }
+
 .about{
   text-align: center;
   padding-bottom: 30px;
@@ -153,4 +154,46 @@ footer p{
   font-size: 30px;
   padding-top: 60px;
   font-family: 'Delius Swash Caps', cursive;
+}
+@media only screen and (max-width: 725px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 300px;
+    height: 264px;
+    top: 20px;
+    left: 35px;
+    padding-top: 90px;
+  }
+  .col-md-3 img{
+    width: 300px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:10%;
+    margin-right: 16%; 
+  }
+  button{
+    margin-left: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+
+    /* margin-right: -20%; */
+  }
+}
+@media only screen and (min-width: 825px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 400px;
+    height: 364px;
+    top: 20px;
+    left: 35px;
+    padding-top: 30%;
+  }
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:18%;
+    margin-right: 16%; 
+  }
 }
