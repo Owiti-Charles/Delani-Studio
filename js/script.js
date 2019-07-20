@@ -32,22 +32,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("form#form34A").submit(function(event){
-    var name = $("input#name").val();
-    var email = $("input#email").val();
-    var message = $("textarea#comment").val();
-    if ($("input#name").val() && $("input#email").val() && $("textarea#comment").val()!= "" ){
-      alert (name + ", we have received your message. Thank you for reaching out to us.");
-    }
-    else {
-      alert("Please enter your name and email!")
-    }
-    event.preventDefault();
-  });
-
-});
-
-$(document).ready(function(){
   $("#work1").mouseover(function(){
     $("#overlay").show();
   }).mouseout(function(){
@@ -97,4 +81,20 @@ $(document).ready(function(){
   }).mouseout(function(){
     $("#overlay8").hide();
   });
+});
+
+$(document).ready(function(){
+  $("form#form34A").submit(function(event){
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("textarea#comment").val();
+    if ($("input#name").val() && $("input#email").val() && $("textarea#comment").val()!= "" ){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!")
+    }
+    event.preventDefault();
+  });
+
 });
