@@ -12,7 +12,7 @@ This project is a web application for Delani studio that shows details about the
 <!-- <img src="https://raw.githubusercontent.com/Owiti-Charles/Akan-Names/master/images/screenshot.png" width="800px" height="400px"> -->
 
 ## Live Page 
-https://Owiti-charles.github.io/Akan-Names 
+https://Owiti-charles.github.io/Delani-Studio 
 
 
 ## Installation / Setup instruction
