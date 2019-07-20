@@ -76,9 +76,10 @@
   margin-top: 30px;
   padding-top: 30px;
 }
-input[type=text],input[type=email]{
+input[type=text],input[type=email],#comment{
   background: transparent;
-  /* color: white; */
+  color: white;
+  font-size: 20px;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -93,7 +94,6 @@ input[type=text],input[type=email]{
   width: 30%;
 }
 #comment{
-  background: transparent;
   margin-left: 20%;
   width: 60%;
 }
@@ -111,4 +111,15 @@ footer p{
 }
 #product, #development, #design{
   display: none;
+}
+#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
+  color: white;
+  width: 200px;
+  height: 164px;
+  background-color:rgba(185, 180, 180, 0.753);
+  position:absolute;
+  top: 20px;
+  left: 35px;
+  text-align: center;
 }
