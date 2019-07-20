@@ -47,12 +47,17 @@ html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10%;
-  padding-bottom: 10%;
   font-family: 'Copse', serif;
+  font-size: 18px;
 }
 .services h2{
   font-family: 'Gabriela', serif;
+  
+}
+#servicesoverlay{
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .what-we-do{
   font-family: 'Quattrocento', serif;
@@ -62,7 +67,6 @@ html{
 }
 .what-we-do h2{
   padding-bottom: 38px;
-  
 }
 #portfolio{
   display: flex;
@@ -125,6 +129,7 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
+  font-family: 'Delius Swash Caps', cursive;
 }
 footer p{
   margin-top: 10px;
@@ -132,6 +137,7 @@ footer p{
 #product, #development, #design{
   display: none;
   font-family: 'Copse', serif;
+  font-size: 20px;
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
@@ -142,8 +148,9 @@ footer p{
   position:absolute;
   top: 20px;
   left: 35px;
+  font-weight: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 60px;
   font-family: 'Delius Swash Caps', cursive;
 }
