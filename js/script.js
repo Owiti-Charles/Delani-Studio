@@ -94,7 +94,7 @@ $(document).ready(function(){
     else {
       alert("Please enter your name and email!")
     }
-    event.preventDefault();
+    // event.preventDefault();
   });
 
 });
