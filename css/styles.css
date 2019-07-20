@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .landing{
   background-image: url('../images/backgrounds/h_img.jpg');
   background-position: center center;
@@ -114,12 +117,14 @@ footer p{
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
-  color: white;
+  color: black;
   width: 200px;
   height: 164px;
-  background-color:rgba(185, 180, 180, 0.753);
+  background-color:rgba(188, 236, 190, 0.623);
   position:absolute;
   top: 20px;
   left: 35px;
   text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
 }
