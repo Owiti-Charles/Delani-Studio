@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 html{
   scroll-behavior: smooth;
 }
@@ -9,6 +10,7 @@ html{
   color: white;
   text-align: center;
   padding-top:17%; 
+  font-family: 'Gabriela', serif;
   /* padding-bottom:5%; */
 }
 .landing h1{
@@ -21,8 +23,8 @@ html{
 #logo{
   margin-top: 12px;
   margin-bottom: 24px;
-  width: 64px;
-  height: 64px;;
+  width: 70px;
+  height: 70px;;
 }
 #mouse-click{
   padding-top : 22px;
@@ -33,6 +35,10 @@ html{
   text-align: center;
   padding-bottom: 30px;
   padding-top:40px;
+  font-family: 'Copse', serif;
+}
+#about{
+  font-family: 'Gabriela', serif;
 }
 .services{
   text-align: center;
@@ -43,13 +49,20 @@ html{
   background-repeat: no-repeat;
   padding-top: 10%;
   padding-bottom: 10%;
+  font-family: 'Copse', serif;
+}
+.services h2{
+  font-family: 'Gabriela', serif;
 }
 .what-we-do{
+  font-family: 'Quattrocento', serif;
   text-align: center;
   padding-top: 40px;
+  font-family: 'Gabriela', serif;
 }
 .what-we-do h2{
   padding-bottom: 38px;
+  
 }
 #portfolio{
   display: flex;
@@ -65,6 +78,7 @@ html{
 .portfolio h2{
   text-align: center;
   padding-top:40px;
+  font-family: 'Gabriela', serif;
 }
 .contact{
   background-image: url('../images/backgrounds/c_image.jpg');
@@ -77,12 +91,15 @@ html{
 .contact h2{
   text-align: center;
   margin-top: 30px;
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Gabriela', serif;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
   color: white;
   font-size: 20px;
+  font-family: 'Copse', serif;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -114,6 +131,7 @@ footer p{
 }
 #product, #development, #design{
   display: none;
+  font-family: 'Copse', serif;
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
@@ -126,5 +144,6 @@ footer p{
   left: 35px;
   text-align: center;
   font-size: 25px;
-  padding-top: 50px;
+  padding-top: 60px;
+  font-family: 'Delius Swash Caps', cursive;
 }
