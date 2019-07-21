@@ -42,7 +42,8 @@ https://Owiti-charles.github.io/Delani-Studio
 | Press Submit|     |Pop up "Owiti Charles , we have received your message. Thank you for reaching out to us.|
 
 ## Known Bugs
-* The site is not responsive enough for some devices 
+* The site is not responsive enough for some devices. 
+* mail chimp API does not function properly.
 
 ## Contact Information 
 
