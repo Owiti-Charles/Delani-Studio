@@ -258,7 +258,8 @@ footer p{
     height: 100%;
     top: 20px;
     left: 20px;
-    padding-top:10%; 
+    padding-top:20%; 
+    font-size: 26px;
   }
   .col-md-3 img{
     width: 400px;
