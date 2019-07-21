@@ -82,7 +82,7 @@ html{
   padding-top: 40px;
   font-family: 'Gabriela', serif;
 }
-.what-we-do h2{
+.what-we-do .headings{
   padding-bottom: 38px;
 }
 #portfolio{
@@ -108,6 +108,9 @@ html{
   background-repeat: no-repeat;
   color: white;
   /* text-align: center; */
+}
+.title{
+  padding: 6px;
 }
 .contact h2{
   text-align: center;
@@ -154,7 +157,11 @@ footer p{
 #product, #development, #design{
   display: none;
   font-family: 'Copse', serif;
+  font-size: 16px;
+}
+#product .title, #development .title, #design .title{
   font-size: 20px;
+  font-weight: 500;
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
