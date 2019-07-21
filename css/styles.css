@@ -41,10 +41,10 @@ html{
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-45px);
+    transform: translateY(-55px);
   }
   60% {
-    transform: translateY(-35px);
+    transform: translateY(-45px);
   }
 }
 
@@ -270,3 +270,4 @@ footer p{
     margin-right: 10%; 
   }
 }
+
