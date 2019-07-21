@@ -41,7 +41,7 @@ html{
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-40px);
+    transform: translateY(-45px);
   }
   60% {
     transform: translateY(-35px);
@@ -126,12 +126,12 @@ input[type=text],input[type=email],#comment{
 .form-control::-webkit-input-placeholder { 
   color: white; 
 }
-#name{
+#MERGE1{
   width: 30%;
   margin-left: 18%;
   margin-right: 30px;
 }
-#email{
+#MERGE0{
   width: 30%;
 }
 #comment{
