@@ -161,7 +161,7 @@ footer p{
 }
 #product .title, #development .title, #design .title{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
@@ -222,24 +222,22 @@ footer p{
     margin-right: 16%; 
   }
   button{
-    /* margin-left: 10%; */
     padding-bottom: 30px;
     margin-bottom: 20px;
-
   }
-  #name{
-    width: 80%;
-    margin-left: 10%;
+  #MERGE0{
+    width: 84%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+  }
+  #MERGE1{
+    width: 100%;
+    margin-left: 4%;
     margin-bottom: 20px;
-    /* margin-right: 30px; */
-  }
-  #email{
-    width: 80%;
-    margin-left: 10%;
   }
   #comment{
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 4%;
+    width: 84%;
   }
 }
 @media only screen and (min-width: 825px){
